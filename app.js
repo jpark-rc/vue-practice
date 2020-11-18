@@ -20,3 +20,6 @@ const app = Vue.createApp({
 });
 
 app.mount('#user-goal');
+
+// methods will always return an object of functions
+// data itself is a function
