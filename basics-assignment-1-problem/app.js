@@ -9,6 +9,9 @@ const app = Vue.createApp({
 	},
 
 	methods: {
+		increaseAge() {
+			return this.age+5;
+		},
 		prepopulate() {
 			return this.myname;
 		}
